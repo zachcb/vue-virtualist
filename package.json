@@ -1,0 +1,37 @@
+{
+  "name": "vue-virtualist",
+  "private": true,
+  "dependencies": {
+    "vue": "^3.2.13",
+    "vue-demi": "^0.11.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@storybook/addon-a11y": "^6.4.0-alpha.41",
+    "@storybook/addon-actions": "^6.4.0-alpha.41",
+    "@storybook/addon-essentials": "^6.4.0-alpha.41",
+    "@storybook/addon-links": "^6.4.0-alpha.41",
+    "@storybook/vue3": "^6.4.0-alpha.41",
+    "@vitejs/plugin-vue": "^1.8.1",
+    "autoprefixer": "^9",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-vue": "^7.18.0",
+    "lerna": "^4.0.0",
+    "postcss": "^7",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14",
+    "typescript": "^4.4.3",
+    "vite": "^2.5.10",
+    "vue-loader": "^16.6.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
